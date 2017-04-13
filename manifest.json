@@ -1,0 +1,14 @@
+{
+  "name": "Style Diff",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Prueba de extensión.",
+  "browser_action": {
+    "default_title": "Style Diff",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://www.ferdeveloper.com/"
+  ]
+}
