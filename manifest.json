@@ -2,12 +2,13 @@
   "name": "Style Diff",
   "manifest_version": 2,
   "version": "0.1",
-  "description": "Prueba de extensión.",
-  "browser_action": {
-    "default_title": "Style Diff",
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
+  "description": "Shows the styles than changed on chrome development tools.",
+  "icons": {
+     "48": "images/logo_48.png",
+     "64": "images/logo_64.png",
+     "128": "images/logo_128.png"
   },
+  "devtools_page": "devTools.html",
   "permissions": [
     "http://www.ferdeveloper.com/"
   ]
