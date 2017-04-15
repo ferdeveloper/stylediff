@@ -2,3 +2,18 @@ body {
   background-color: #55605D;
   color: white;
 }
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.showChages {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #E92D2D;
+  padding: 0 20px;
+  color: white;
+}
